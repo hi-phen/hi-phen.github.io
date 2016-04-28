@@ -11,6 +11,8 @@ categories: ["dev","swift"]
 
 ## Initializing an Empty String
 
+문자열 초기화
+
 {% highlight swift %}
 var emptyString = ""               // empty string literal
 var anotherEmptyString = String()  // initializer syntax
@@ -66,6 +68,8 @@ print(catString)
 
 ## Concatenating Strings and Characters
 
+문자열 합치기
+
 {% highlight swift %}
 let string1 = "hello"
 let string2 = " there"
@@ -83,12 +87,16 @@ welcome.append(exclamationMark)
 
 ## Counting Characters
 
+문자열 세기
+
 {% highlight swift %}
 var string1 = "한글"
 print(string1.characters.count) //2
 {% endhighlight %}
 
 ## String Indices
+
+문자열 인덱스
 
 {% highlight swift %}
 let greeting = "Guten Tag!"
@@ -109,6 +117,8 @@ for index in greeting.characters.indices {
 {% endhighlight %}
 
 ## Inserting and Removing
+
+문자열의 삽입과 삭제
 
 {% highlight swift %}
 var welcome = "hello"

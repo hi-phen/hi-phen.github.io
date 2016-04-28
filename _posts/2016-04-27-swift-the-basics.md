@@ -326,4 +326,4 @@ assert(age >= 0, "A person's age cannot be less than zero")
 [^2]: 잠시 맥이 없는관계로 [여기](https://swiftlang.ng.bluemix.net/)를 통해서 연습해 보았다.
 [^3]: java의 null과 거의 비슷한 의미인듯 하다.
 [^4]: 명시적으로는 `nil`할당은 가능하지만 `nil`을 가진 옵셔널 변수를 언래핑 하면 런타임 에러
-[^5]: [여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID55)에 자세한 설명이 있는데.. 추후에 보강
+[^5]: [여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html)에 자세한 설명이 있는데.. 추후에 보강
