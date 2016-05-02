@@ -22,7 +22,7 @@ Swift는 Array, Set, Dictionary 3가지 콜렉션을 지원한다.
 
 배열은 정렬된 값의 리스트이며 같은값이 다른 위치에 여러번 존재 할 수 있다.
 
-> Swift의 배열은 `Foundation`의 `NSArray` 클래스와 연결되어 있으며 다른 여러 타입들도 마찬가지 인듯 하다 [여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/WorkingWithCocoaDataTypes.html)를 참고
+> Swift의 배열은 `Foundation`의 `NSArray` 클래스와 연결되어 있으며 다른 여러 타입들도 마찬가지 인듯 하다 [여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/WorkingWithCocoaDataTypes.html){:target="_blank"}를 참고
 
 ## Array Type Shorthand Syntax
 

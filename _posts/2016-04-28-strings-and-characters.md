@@ -139,7 +139,7 @@ welcome.removeRange(range)
 
 ## Prefix and Suffix Equality
 
-이상하게 `hasPrefix(_:)`, `hasSuffix(_:)`가 [여기](https://swiftlang.ng.bluemix.net) 에서는 컴파일이 안된다. 하지만 실제로는 되는 듯 함
+이상하게 `hasPrefix(_:)`, `hasSuffix(_:)`가 [여기](https://swiftlang.ng.bluemix.net){:target="_blank"} 에서는 컴파일이 안된다. 하지만 실제로는 되는 듯 함
 
 {% highlight swift %}
 let str = "has prefix"

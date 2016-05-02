@@ -12,7 +12,7 @@ categories: ["dev","swift"]
 기존에 자바 서버와 안드로이드쪽 개발만 해봐서 이런 계열의 언어에 익숙치가 않은데[^1]
 공부 하다 보니 정리할 필요도 있을 것 같고 깃헙에 블로그 만드는것도 해볼겸 정리해 본다.
 
-[여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html)를 보고 공부하고 있는데 영어다..
+[여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html){:target="_blank"}를 보고 공부하고 있는데 영어다..
 
 한글 번역본은 옛날 버전이라 안맞는 부분도 있고 한창 자라나는(?) 언어인지 버전업이 빨라 이것저것 바뀌는 모양 이라 
 일단 공식 가이드의 코드만 보고[^2] **내멋대로 해석**해서 정리하고 나중에 다른 정보들을 습득하여 수정하는 방식으로 해야겠다. 
@@ -324,7 +324,7 @@ assert(age >= 0, "A person's age cannot be less than zero")
 ---
 
 [^1]: PHP 같은것도 해보긴 했지만 성격이 다르니 안해본걸로 친다.
-[^2]: 잠시 맥이 없는관계로 [여기](https://swiftlang.ng.bluemix.net/)를 통해서 연습해 보았다.
+[^2]: 잠시 맥이 없는관계로 [여기](https://swiftlang.ng.bluemix.net/){:target="_blank"}를 통해서 연습해 보았다.
 [^3]: java의 null과 거의 비슷한 의미인듯 하다.
 [^4]: 명시적으로는 `nil`할당은 가능하지만 `nil`을 가진 옵셔널 변수를 언래핑 하면 런타임 에러
-[^5]: [여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html)에 자세한 설명이 있는데.. 추후에 보강
+[^5]: [여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html){:target="_blank"}에 자세한 설명이 있는데.. 추후에 보강
