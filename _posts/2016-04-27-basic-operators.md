@@ -2,6 +2,7 @@
 layout: post
 title: Swift 정리 - Basic Operators
 date: 2016-04-27 17:25:00 +0900
+comments: true
 categories: ["dev","swift"]
 --- 
 

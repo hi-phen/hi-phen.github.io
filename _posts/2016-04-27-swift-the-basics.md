@@ -2,6 +2,7 @@
 layout: post
 title: Swift 정리 - The Basics
 date: 2016-04-27 17:00:00 +0900
+comments: true
 categories: ["dev","swift"]
 ---
 

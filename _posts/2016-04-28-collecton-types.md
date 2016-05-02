@@ -2,6 +2,7 @@
 layout: post
 title: Swift 정리 - Collection Types
 date: 2016-04-28 16:22:00 +0900
+comments: true
 categories: ["dev","swift"]
 --- 
 

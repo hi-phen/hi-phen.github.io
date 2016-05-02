@@ -2,6 +2,7 @@
 layout: post
 title: Swift 정리 - Control Flow
 date: 2016-04-28 17:18:00 +0900
+comments: true
 categories: ["dev","swift"]
 --- 
 
