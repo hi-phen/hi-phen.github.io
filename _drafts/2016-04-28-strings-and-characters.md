@@ -4,11 +4,11 @@ title: Swift 정리 - Strings and Characters
 date: 2016-04-28 13:42:00 +0900
 comments: true
 categories: ["dev","swift"]
---- 
+---
 
 역시 별다른 내용없으니 가볍게 보고 가자
 
-뻔한 내용은 역시 생략 
+뻔한 내용은 역시 생략
 
 ## Initializing an Empty String
 
@@ -152,7 +152,7 @@ print(str.hasSuffix("prefix")) //true
 
 문자열의 검색은 아래와 같이 가능하다고 한다
 
-Swift 그 자체에는 없고 Objective-C의 Foundation 프레임워크를 통해 사용 가능한듯 
+Swift 그 자체에는 없고 Objective-C의 Foundation 프레임워크를 통해 사용 가능한듯
 
 Swift라이브러리에서 한참 찾았는데 결국 Objective-C..
 

@@ -7,6 +7,14 @@
 
     {% include header.html %}
 
+    {%if page.tagline%}
+    <div class="postContent">
+      <center><p ><strong><span class="authorKeyword">{{page.title}}</span><span class="small-site-title"> <h2 style="letter-spacing: 3px !important;
+      text-transform: uppercase !important;">{{page.tagline}}</h2></span></strong></p></center>
+    </div>
+
+    {% endif %}
+
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
