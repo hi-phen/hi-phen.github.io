@@ -15,3 +15,7 @@ url: "http://hi-phen.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-youtube
+  - jekyll-toc
