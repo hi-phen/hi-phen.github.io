@@ -1,9 +1,5 @@
 ---
-layout: post
 title: Swift 정리 - Control Flow
-date: 2016-04-28 17:18:00 +0900
-comments: true
-categories: ["dev","swift"]
 --- 
 
 ## For-In Loops
@@ -22,7 +18,7 @@ for _ in 1...power {
 }
 {% endhighlight %}
 
-두가지의 예재를 후르륵 보고 가자 
+두가지의 예재를 후르륵 보고 가자
 
 {% highlight swift %}
 let names = ["Anna", "Alex", "Brian", "Jack"]
@@ -225,24 +221,24 @@ loop : for idx in 0...2 {
 
 `guard`문은 `if`문과 흡사하지만 조건이 `true` 일때만 다음으로 넘어가고 `false`일때는 `else`문을 수행한다.
 
-`guard`문은 항상 `else`문을 가지고 있다. 
+`guard`문은 항상 `else`문을 가지고 있다.
 
 {% highlight swift %}
 func greet(person: [String: String]) {
     guard let name = person["name"] else {
         return
     }
-    
+
     print("Hello \(name)!")
-    
+
     guard let location = person["location"] else {
         print("I hope the weather is nice near you.")
         return
     }
-    
+
     print("I hope the weather is nice in \(location).")
 }
- 
+
 greet(["name": "John"])
 // Prints "Hello John!"
 // Prints "I hope the weather is nice near you."

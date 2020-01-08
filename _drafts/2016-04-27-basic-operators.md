@@ -1,9 +1,5 @@
 ---
-layout: post
 title: Swift 정리 - Basic Operators
-date: 2016-04-27 17:25:00 +0900
-comments: true
-categories: ["dev","swift"]
 --- 
 
 연산자들은 여타 언어들이 그렇듯 비슷비슷하다.
@@ -22,7 +18,7 @@ categories: ["dev","swift"]
 {% highlight swift %}
 let defaultColorName = "red"
 var userDefinedColorName: String?   // defaults to nil
- 
+
 var colorNameToUse = userDefinedColorName ?? defaultColorName
 print(colorNameToUse) // red
 
