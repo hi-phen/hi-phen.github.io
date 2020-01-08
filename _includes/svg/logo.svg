@@ -1,8 +1,6 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="24px" height="24px" viewBox="0 0 24 24">
-<style type="text/css">
-	.st0{fill:#515151;}
-</style>
-<path class="st0" d="M1.7,22.3c5.7-5.7,11.3-5.7,17,0c3.3-3.3,3.5-5.3,0.8-6c2.7,0.7,3.5-1.1,2.3-5.6s-3.3-5.2-6.3-2.1
-	c3-3,2.3-5.2-2.1-6.3S7,1.8,7.7,4.6C7,1.8,5,2.1,1.7,5.3C7.3,11,7.3,16.7,1.7,22.3"/>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+  <g>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="0" x="16" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">-</text>
+  <text font-style="normal" font-weight="bold" stroke="#000" transform="matrix(2.8914330888710533,0,0,1.017852187156677,-1.085355925199874,-0.290563490241766) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_4" y="22" x="0" stroke-opacity="null" stroke-width="0" fill="#666666">-</text>
+ </g>
 </svg>
