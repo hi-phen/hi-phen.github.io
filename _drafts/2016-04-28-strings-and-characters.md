@@ -1,9 +1,5 @@
 ---
-layout: post
 title: Swift 정리 - Strings and Characters
-date: 2016-04-28 13:42:00 +0900
-comments: true
-categories: ["dev","swift"]
 ---
 
 역시 별다른 내용없으니 가볍게 보고 가자

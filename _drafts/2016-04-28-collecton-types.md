@@ -1,9 +1,5 @@
 ---
-layout: post
 title: Swift 정리 - Collection Types
-date: 2016-04-28 16:22:00 +0900
-comments: true
-categories: ["dev","swift"]
 --- 
 
 Swift는 Array, Set, Dictionary 3가지 콜렉션을 지원한다.
@@ -53,7 +49,7 @@ print(anotherInts.count) //1
 
 ## Creating an Array with a Default Value
 
-초기값과 함께 배열 선언하기 
+초기값과 함께 배열 선언하기
 
 {% highlight swift %}
 var threeDoubles = [Double](count: 3, repeatedValue: 0.0)
@@ -106,7 +102,7 @@ print(shoppingList) // ["Eggs", "Milk", "Bananas"]
 {% endhighlight%}
 
 ## Iterating Over an Array
- 
+
 루프문 배울때도 나올꺼같은데..
 
 `enumerate()`를 사용하면 `index`를 받아올수 있다는것만 기억해두자
@@ -134,7 +130,7 @@ for (index,item) in shoppingList.enumerate(){
 
 ## Hash Values for Set Types
 
-`Set` 값의 저장 타입은 `hashable` 해야 한다. Swift에서 제공되는 기본 타입은 모두 `hashable` 하며 사용자 지정 타입의 경우 `Hashable` 프로토콜[^1]을 구현하면 된다. 
+`Set` 값의 저장 타입은 `hashable` 해야 한다. Swift에서 제공되는 기본 타입은 모두 `hashable` 하며 사용자 지정 타입의 경우 `Hashable` 프로토콜[^1]을 구현하면 된다.
 
 ## Set Type Syntax
 
@@ -200,7 +196,7 @@ Set의 연산으로 교집합, 교집합의 여집합, 합집합, 차집합 연�
 let oddDigits: Set = [1, 3, 5, 7, 9]
 let evenDigits: Set = [0, 2, 4, 6, 8]
 let singleDigitPrimeNumbers: Set = [2, 3, 5, 7]
- 
+
 print(oddDigits.union(evenDigits).sort()) //합집합
 // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(oddDigits.intersect(evenDigits).sort()) //교집합
@@ -221,7 +217,7 @@ let houseAnimals: Set = ["🐶", "🐱"]
 let anotherHouseAnimals: Set = ["🐶", "🐱"]
 let farmAnimals: Set = ["🐮", "🐔", "🐑", "🐶", "🐱"]
 let cityAnimals: Set = ["🐦", "🐭"]
- 
+
 print(houseAnimals.isSubsetOf(farmAnimals))
 // true
 print(farmAnimals.isSupersetOf(houseAnimals))
@@ -308,7 +304,7 @@ for airportCode in airports.keys {
 }
 // Airport code: YYZ
 // Airport code: DUB
- 
+
 for airportName in airports.values {
     print("Airport name: \(airportName)")
 }

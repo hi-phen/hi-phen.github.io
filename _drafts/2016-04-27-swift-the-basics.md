@@ -1,9 +1,5 @@
 ---
-layout: post
 title: Swift 정리 - The Basics
-date: 2016-04-27 17:00:00 +0900
-comments: true
-categories: ["dev","swift"]
 ---
 
 어쩌다 보니 아이폰 개발을 해야 할 것 같아서 관련 공부를 좀 해야 하는데..
@@ -14,8 +10,8 @@ categories: ["dev","swift"]
 
 [여기](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html){:target="_blank"}를 보고 공부하고 있는데 영어다..
 
-한글 번역본은 옛날 버전이라 안맞는 부분도 있고 한창 자라나는(?) 언어인지 버전업이 빨라 이것저것 바뀌는 모양 이라 
-일단 공식 가이드의 코드만 보고[^2] **내멋대로 해석**해서 정리하고 나중에 다른 정보들을 습득하여 수정하는 방식으로 해야겠다. 
+한글 번역본은 옛날 버전이라 안맞는 부분도 있고 한창 자라나는(?) 언어인지 버전업이 빨라 이것저것 바뀌는 모양 이라
+일단 공식 가이드의 코드만 보고[^2] **내멋대로 해석**해서 정리하고 나중에 다른 정보들을 습득하여 수정하는 방식으로 해야겠다.
 
 ---
 
@@ -162,7 +158,7 @@ let twoThousandAndOne = twoThousand + UInt16(one)
 
 ## Integer and Floating-Point Conversion
 
-정수와 소수 타입 변환은 아래와 같이 
+정수와 소수 타입 변환은 아래와 같이
 
 {% highlight swift %}
 let three = 3
@@ -201,7 +197,7 @@ print(http200Status.statusCode) //200
 print(http200Status.description) // "OK"
 //이름 지정으로 해도 .0 .1과 같은 접근 역시 가능
 
-let http500Status: (Int,description:String) = (500,"Error") //타입지정도 가능 
+let http500Status: (Int,description:String) = (500,"Error") //타입지정도 가능
 print(http500Status.0) //500
 print(http500Status.description) // "Error"
 {% endhighlight %}
@@ -212,7 +208,7 @@ print(http500Status.description) // "Error"
 
 여기저기 읽어봤는데 정확히는 모르겠고..
 
-`nil`[^3]일수도 있고 `nil`이 아닐수도 있는게 옵셔널 변수인듯하다 
+`nil`[^3]일수도 있고 `nil`이 아닐수도 있는게 옵셔널 변수인듯하다
 
 일반적인 변수타입의 경우 변수에 nil의 할당이 불가하다 런타임시 할당되면 런타임 에러가 발생
 
@@ -294,13 +290,13 @@ if let firstNumber = Int("4"), secondNumber = Int("42") where firstNumber < seco
 
 ## Error Handling
 
-이부분은 간단하게 보고 추후에 자세히 
+이부분은 간단하게 보고 추후에 자세히
 
 {% highlight swift %}
 func makeASandwich() throws {
     // ...
 }
- 
+
 do {
     try makeASandwich()
     eatASandwich()
