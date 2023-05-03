@@ -39,9 +39,15 @@
   layout: list
   content:
     - layout: left
+      title: LINE Plus
+      caption: 2022.03 - 현재
+      link: https://linepluscorp.com/
+      description: |
+        [create-figma-translation-plugin-with-vuejs](https://engineering.linecorp.com/ko/blog/create-figma-translation-plugin-with-vuejs)
+    - layout: left
       title: Kurly
       sub_title: Manager
-      caption: 2017.12 - 현재
+      caption: 2017.12 - 2022.03
       link: https://www.kurly.com
       description: | 
         ## **컬리에 조인하다**
